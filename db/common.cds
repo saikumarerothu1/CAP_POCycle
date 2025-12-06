@@ -9,9 +9,9 @@ type Address{
 }
 
 type contact{
-    Person : String(50);
-    Phone : Integer @assert.format :'^\\+?[0-9\\s()-]{7,15}$';
-    Email : String(50) @assert.format : '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$';
+    Person : String(20);
+    Phone : String @assert.format :'^\\+?[0-9\\s()-]{7,15}$';
+    Email : String(50) @assert.format : '^((?!\.)[\w\-_.]*[^.])(@\w+)(\.\w+(\.\w+)?[^.\W])$';
 }
 
 type post_aspect{
