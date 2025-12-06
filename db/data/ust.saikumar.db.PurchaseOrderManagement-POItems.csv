@@ -1,0 +1,6 @@
+POItemID,POID_POID,LineItemNo,Material_MaterialID,Description,Quantity,UoM_uom,NetPrice,DiscountP,GSTP,ReceivedQuantity,OpenQuantity,Status
+POI-001-aaaa,PO-1001-aaaa-4aaa-bbbb-111111111111,10,M-aaaa1111-aaaa-4aaa-bbbb-000000000001,Steel Rod 6mm,100,KG,120,5,18,11400,100,Open
+POI-002-bbbb,PO-1001-aaaa-4aaa-bbbb-111111111111,20,M-bbbb2222-bbbb-4bbb-cccc-000000000002,Steel Rod 10mm,50,KG,150,0,18,7500,50,Open
+POI-003-cccc,PO-1002-bbbb-4bbb-cccc-222222222222,10,M-cccc3333-cccc-4ccc-dddd-000000000003,Welding Service,10,KG,500,0,18,5000,10,Open
+POI-004-dddd,PO-1003-cccc-4ccc-dddd-333333333333,10,M-dddd4444-dddd-4ddd-eeee-000000000004,Cement Bags,40,KG,350,0,12,14000,40,Open
+POI-005-eeee,PO-1004-dddd-4ddd-eeee-444444444444,10,M-eeee5555-eeee-4eee-ffff-000000000005,Packaging Material,200,KG,50,2,5,9800,200,Open

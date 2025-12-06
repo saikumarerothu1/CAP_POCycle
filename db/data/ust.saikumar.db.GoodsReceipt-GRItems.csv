@@ -1,0 +1,6 @@
+GRItemID,GoodsReceipt_GRID,POItem_POItemID,ReceivedQuantity,UoM,BatchNumber,Remarks
+GRI-001-aaaa,GR-1111-aaaa-4aaa-bbbb-000000000001,POI-001-aaaa,50,KG,2024A,First delivery
+GRI-002-bbbb,GR-2222-bbbb-4bbb-cccc-000000000002,POI-001-aaaa,50,KG,2024B,Second delivery
+GRI-003-cccc,GR-3333-cccc-4ccc-dddd-000000000003,POI-003-cccc,10,KG,2024C,Service completed
+GRI-004-dddd,GR-4444-dddd-4ddd-eeee-000000000004,POI-004-dddd,40,KG,2024D,Material received
+GRI-005-eeee,GR-5555-eeee-4eee-ffff-000000000005,POI-005-eeee,200,KG,2024E,Goods packed

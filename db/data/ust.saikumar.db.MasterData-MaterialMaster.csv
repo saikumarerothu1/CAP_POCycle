@@ -1,0 +1,6 @@
+MaterialID,MaterialCode,MaterialDescription,MaterialType,UoM_uom,StandardPrice,GSTPercent,Flag
+M-aaaa1111-aaaa-4aaa-bbbb-000000000001,RM001,Steel Rod 6mm,RawMaterial,KG,120.00,18,Active
+M-bbbb2222-bbbb-4bbb-cccc-000000000002,RM002,Steel Rod 10mm,RawMaterial,KG,150.00,18,Active
+M-cccc3333-cccc-4ccc-dddd-000000000003,SRV01,Welding Service,Service,KG,500.00,18,Inactive
+M-dddd4444-dddd-4ddd-eeee-000000000004,RM003,Cement Bags,RawMaterial,KG,350.00,12,Active
+M-eeee5555-eeee-4eee-ffff-000000000005,OTH01,Packaging Material,Other,KG,50.00,5,Inactive

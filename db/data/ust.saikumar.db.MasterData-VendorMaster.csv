@@ -1,0 +1,6 @@
+VendorID,VendorCode,VendorName,Address_Street,Address_City,Address_State,Address_Country,Address_PostalCode,TaxId,contact_Person,contact_Phone,contact_Email,PaymentTerms,Flag
+V-11111111-aaaa-4bbb-cccc-111111111111,1001,ABC Traders,Madhapur,Hyderabad,TS,India,500081,GST1001,Ramesh,+919865432100,ramesh@abc.com,NET30,Active
+V-22222222-bbbb-4ccc-dddd-222222222222,1002,Global Suppliers,Banjara Hills,Hyderabad,TS,India,500034,GST1002,Suresh,+919845612345,suresh@global.com,NET45,Inactive
+V-33333333-cccc-4ddd-eeee-333333333333,1003,Metro Tools,Kukatpally,Hyderabad,TS,India,500072,GST1003,Kiran,+919876543210,kiran@metro.com,NET15,Active
+V-44444444-dddd-4eee-ffff-444444444444,1004,Premium Metals,Ameerpet,Hyderabad,TS,India,500016,GST1004,Vinay,+919934521678,vinay@premium.com,NET30,Active
+V-55555555-eeee-4fff-aaaa-555555555555,1005,Universal Stores,Secunderabad,Hyderabad,TS,India,500003,GST1005,Rahul,+919934567890,rahul@universal.com,NET60,Inactive

@@ -1,0 +1,6 @@
+InvoiceID,Vendor_VendorID,ReferencePO_POID,ReferenceGR_GRID,InvoiceDate,PostingDate,Currency_code,AmountBeforeTax,TaxAmount,TotalAmount,Status,ReasonforRejection,createdAt,createdBy,modifiedAt,modifiedBy,VerifiedBy,VerifiedAt,PostedBy,PostedAt
+INV-001-aaaa,V-11111111-aaaa-4bbb-cccc-111111111111,PO-1001-aaaa-4aaa-bbbb-111111111111,GR-1111-aaaa-4aaa-bbbb-000000000001,2024-11-15,2024-11-15,INR,15000,2700,17700,Verified,,2024-11-15T10:00:00Z,USR01,,,,,,
+INV-002-bbbb,V-22222222-bbbb-4ccc-dddd-222222222222,PO-1002-bbbb-4bbb-cccc-222222222222,GR-3333-cccc-4ccc-dddd-000000000003,2024-11-17,2024-11-17,INR,5000,900,5900,Posted,,2024-11-17T09:00:00Z,USR02,,USR10,2024-11-17T12:00:00Z,,,
+INV-003-cccc,V-33333333-cccc-4ddd-eeee-333333333333,PO-1003-cccc-4ccc-dddd-333333333333,GR-4444-dddd-4ddd-eeee-000000000004,2024-11-20,2024-11-20,INR,14000,1680,15680,Draft,,2024-11-20T08:00:00Z,USR02,,,,,,
+INV-004-dddd,V-44444444-dddd-4eee-ffff-444444444444,PO-1004-dddd-4ddd-eeee-444444444444,GR-5555-eeee-4eee-ffff-000000000005,2024-11-21,2024-11-21,INR,9800,490,10290,Rejected,Incorrect PO reference,2024-11-21T09:30:00Z,USR03,,,,,,
+INV-005-eeee,V-55555555-eeee-4fff-aaaa-555555555555,PO-1005-eeee-4eee-ffff-555555555555,,2024-11-25,2024-11-25,INR,20000,3600,23600,Cancelled,Vendor error,2024-11-25T11:00:00Z,USR01,,,,,,

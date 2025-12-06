@@ -1,0 +1,6 @@
+InvoiceItemID,Invoice_InvoiceID,POItem_POItemID,GRItem_GRItemID,QuantityInvoiced,UoM_uom,NetPrice,Discount,GSTPercent,LineNetAmount,LineTaxAmount,LineTotalAmount
+INVI-001-aaaa,INV-001-aaaa,POI-001-aaaa,GRI-001-aaaa,50,KG,120,0,18,6000,1080,7080
+INVI-002-bbbb,INV-001-aaaa,POI-002-bbbb,GRI-002-bbbb,25,KG,150,5,18,3562.5,641.25,4203.75
+INVI-003-cccc,INV-002-bbbb,POI-003-cccc,GRI-003-cccc,10,KG,500,0,18,5000,900,5900
+INVI-004-dddd,INV-003-cccc,POI-004-dddd,GRI-004-dddd,40,KG,350,0,12,14000,1680,15680
+INVI-005-eeee,INV-004-dddd,POI-005-eeee,GRI-005-eeee,200,KG,50,0,5,10000,500,10500

@@ -1,0 +1,6 @@
+GRID,GRNumber,POReference_POID,GRDate,Warehouse,Status,createdAt,createdBy,modifiedAt,modifiedBy
+GR-1111-aaaa-4aaa-bbbb-000000000001,GR-001,PO-1001-aaaa-4aaa-bbbb-111111111111,2024-11-11,MAINWH,Draft
+GR-2222-bbbb-4bbb-cccc-000000000002,GR-002,PO-1001-aaaa-4aaa-bbbb-111111111111,2024-11-12,MAINWH,Posted
+GR-3333-cccc-4ccc-dddd-000000000003,GR-003,PO-1002-bbbb-4bbb-cccc-222222222222,2024-11-16,MAINWH,Draft
+GR-4444-dddd-4ddd-eeee-000000000004,GR-004,PO-1003-cccc-4ccc-dddd-333333333333,2024-11-18,STORE1,Posted
+GR-5555-eeee-4eee-ffff-000000000005,GR-005,PO-1004-dddd-4ddd-eeee-444444444444,2024-11-19,STORE2,Draft
