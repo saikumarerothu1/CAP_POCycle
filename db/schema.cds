@@ -59,7 +59,7 @@ type po_status : String(15) enum{Open;
 context MasterData{
     @Core.AutoExpand : true
     entity VendorMaster : managed {
-        key VendorID : UUID not null @title : 'Vendor ID';
+        key VendorID : UUID not null @title : 'Vendor ID' @mandatory;
         VendorCode : Integer @title : 'Vendor Code';
         VendorName : String(30) @title : 'Vendor Name';
         Address : t.Address @title : 'Address';
