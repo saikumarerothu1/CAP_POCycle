@@ -1,12 +1,12 @@
 {
   "generationParameters": {
-    "generationDate": "Sat Dec 06 2025 05:20:43 GMT+0000 (Coordinated Universal Time)",
+    "generationDate": "Mon Dec 08 2025 05:32:58 GMT+0000 (Coordinated Universal Time)",
     "generatorPlatform": "SAP Business Application Studio",
     "serviceType": "Local CAP",
     "metadataFilename": "",
     "serviceUrl": "http://localhost:4004/odata/v4/MasterService/",
     "appName": "poproject",
-    "appTitle": "purchase order cycle",
+    "appTitle": "Vendor app",
     "appDescription": "An SAP Fiori application.",
     "appNamespace": "com.ust",
     "ui5Theme": "sap_horizon",
@@ -28,6 +28,6 @@
         "value": "to_poorders"
       }
     ],
-    "launchText": "To launch the generated app, start your CAP project:  and navigate to the following location in your browser:\n\nhttp://localhost:4004/poproject/webapp/index.html"
+    "launchText": "To launch the generated app, start your CAP project:  and navigate to the following location in your browser:\n\nhttp://localhost:4004/com.ust.poproject/index.html"
   }
 }

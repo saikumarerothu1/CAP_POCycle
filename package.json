@@ -2,7 +2,7 @@
   "name": "ustpo-saikumar",
   "version": "1.0.0",
   "description": "\"This is Purchase order and vendor\"",
-  "main": "index.js",
+  "main": "service.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch-poproject": "cds watch --open com.ust.poproject/index.html?sap-ui-xx-viewCache=false --livereload false"
@@ -28,6 +28,7 @@
     "cds-plugin-ui5": "^0.13.0"
   },
   "sapux": [
+    "app/poproject",
     "app/poproject"
   ],
   "cds": {

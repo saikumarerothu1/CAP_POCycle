@@ -5,12 +5,12 @@ type Address{
     City:String(20);
     State:String(20);
     Country:String(20);
-    PostalCode:Integer;
+    PostalCode:String(6);
 }
 
 type contact{
     Person : String(20);
-    Phone : String @assert.format :'^\\+?[0-9\\s()-]{7,15}$';
+    Phone : String @assert.format :'^(?:\+91)?[0-9]{10}$';
     Email : String(50) @assert.format : '^((?!\.)[\w\-_.]*[^.])(@\w+)(\.\w+(\.\w+)?[^.\W])$';
 }
 

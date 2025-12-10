@@ -57,15 +57,15 @@ type po_status : String(15) enum{Open;
 
 
 context MasterData{
-    @Core.AutoExpand : true
+    // @cds.autoexpose : true
     entity VendorMaster : managed {
         key VendorID : UUID not null @title : 'Vendor ID' @mandatory;
-        VendorCode : Integer @title : 'Vendor Code';
+        VendorCode : String(6) @title : 'Vendor Code';
         VendorName : String(30) @title : 'Vendor Name';
         Address : t.Address @title : 'Address';
         TaxId:String(15) @title : 'Tax ID';
         contact:t.contact @title : 'Contact';
-        PaymentTerms:String(30) @title : 'Payment Terms';
+        PaymentTerms:Integer @title : 'Payment Terms';
         @assert.enum
         Flag:isActive default #Inactive;
         to_poorders : Composition of many PurchaseOrderManagement.POHeader on to_poorders.Vendor=$self;
@@ -87,7 +87,7 @@ context MasterData{
 }
 
 context PurchaseOrderManagement{
-
+    // @cds.autoexpose:true
     entity POHeader : managed{
         key POID : UUID not null @title : 'Purchase Order ID';
         PONumber : String @title : 'Purchase Order Number';
@@ -127,6 +127,7 @@ context PurchaseOrderManagement{
 }
 
 context GoodsReceipt {
+    // @cds.autoexpose : true
     entity GRHeader :managed {
         key GRID :UUID not null @title : 'Goods Receipt';
         GRNumber :String @title: 'Goods Receipt Number';
@@ -149,6 +150,7 @@ context GoodsReceipt {
 }
  
 context invoiceManagement{
+    // @cds.autoexpose : true
     entity InvoiceHeader : managed ,Verified , Posted{
         key InvoiceID : UUID not null;
         Vendor: Association to MasterData.VendorMaster;
@@ -186,6 +188,7 @@ context invoiceManagement{
 }
 
 entity eaudit : managed,cuid{
+    // @cds.autoexpose : true
     // key error_id : UUID not null default 4566677;
     error_po : Association to PurchaseOrderManagement.POHeader;
     error_status: String(10) default '404';

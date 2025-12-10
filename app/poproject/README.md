@@ -1,7 +1,7 @@
 ## Application Details
 |               |
 | ------------- |
-|**Generation Date and Time**<br>Sat Dec 06 2025 05:20:43 GMT+0000 (Coordinated Universal Time)|
+|**Generation Date and Time**<br>Mon Dec 08 2025 05:32:58 GMT+0000 (Coordinated Universal Time)|
 |**App Generator**<br>SAP Fiori Application Generator|
 |**App Generator Version**<br>1.20.0|
 |**Generation Platform**<br>SAP Business Application Studio|
@@ -9,7 +9,7 @@
 |**Service Type**<br>Local CAP|
 |**Service URL**<br>http://localhost:4004/odata/v4/MasterService/|
 |**Module Name**<br>poproject|
-|**Application Title**<br>purchase order cycle|
+|**Application Title**<br>Vendor app|
 |**Namespace**<br>com.ust|
 |**UI5 Theme**<br>sap_horizon|
 |**UI5 Version**<br>1.143.0|
@@ -27,7 +27,7 @@ An SAP Fiori application.
 
 -   This app has been generated using the SAP Fiori tools - App Generator, as part of the SAP Fiori tools suite.  To launch the generated app, start your CAP project:  and navigate to the following location in your browser:
 
-http://localhost:4004/poproject/webapp/index.html
+http://localhost:4004/com.ust.poproject/index.html
 
 #### Pre-requisites:
 
